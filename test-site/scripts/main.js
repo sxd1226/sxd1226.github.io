@@ -3,12 +3,12 @@
 let myImage = document.querySelector('img');
 myImage.onclick = function(){
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'E:/DS_work/Web/Web-projects/test-site/image/firefox.jpg'){
+    if(mySrc === 'E:/DS_work/GitHub/reposity/sxd1226.github.io/test-site/image/firefox.jpg'){
         //注意斜杠不能为反斜杠
-        myImage.setAttribute('src','E:/DS_work/Web/Web-projects/test-site/image/nike.jpg');
+        myImage.setAttribute('src','E:/DS_work/GitHub/reposity/sxd1226.github.io/test-site/image/nike.jpg');
     }
     else{
-        myImage.setAttribute('src','E:/DS_work/Web/Web-projects/test-site/image/firefox.jpg');
+        myImage.setAttribute('src','E:/DS_work/GitHub/reposity/sxd1226.github.io/test-site/image/firefox.jpg');
     }
 }
 let myButton = document.querySelector('button');
